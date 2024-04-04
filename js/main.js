@@ -52,7 +52,7 @@ select.addEventListener('change', (e) => {
         <div class="card">
           <div class="card-top center">
             <h3>${parseYYYYMMDD(`${day.date}`)}</h3>
-            <img src="/images/${day.weather}.png" alt="${day.weather}">
+            <img src="./images/${day.weather}.png" alt="${day.weather}">
           </div>
           <div class="card-bottom center">
             <h4>${day.weather}</h4>
